@@ -13,7 +13,7 @@
 
 ### _Checklists for the Internet_
 
-[![Build Status](https://travis-ci.org/notimewaste/checklists.svg?branch=demo)](https://travis-ci.org/notimewaste/teststack)
+[![Build Status](https://travis-ci.org/notimewaste/checklists.svg?branch=demo)](https://travis-ci.org/notimewaste/checklists)
 
 This repo has all rules for the interactive checklists hosted at https://checkops.io/checklist/web-development
 
@@ -40,7 +40,7 @@ You can use this checklists to
 ```
 
 ## Author
-irfan Ahmad, irfan@checkops.io
+irfan Ahmad, checkopser@gmail.com
 
 ## Contributing
 https://github.com/irfanah/TestStack/blob/master/CONTRIBUTING.md
