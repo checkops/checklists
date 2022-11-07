@@ -15,7 +15,7 @@
 
 [![Build Status](https://travis-ci.org/notimewaste/checklists.svg?branch=demo)](https://travis-ci.org/notimewaste/checklists)
 
-This repo has all rules for the interactive checklists hosted at https://checkops.io/checklist/web-development
+This repo has all rules for the interactive checklists hosted at https://checkops.com/checklist/web-development
 
 You can use this checklists to  
 
