@@ -41,7 +41,7 @@ You can use this checklists to
 ```
 
 ## Author
-irfan Ahmad, human@checkops.com
+human@checkops.com
 
 ## Contributing
 https://github.com/irfanah/TestStack/blob/master/CONTRIBUTING.md
