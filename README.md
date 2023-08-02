@@ -12,7 +12,7 @@
 
 
 
-### _Checklists for the Internet_
+### _Community Curated Checklists for the Internet_
 
 [![Build Status](https://travis-ci.org/notimewaste/checklists.svg?branch=demo)](https://travis-ci.org/notimewaste/checklists)
 
@@ -28,20 +28,4 @@ You can use this checklists to
 * Enter URL and get your website checked against these rules (upcoming)
 
 
-### Directory structure
 
-```
-├── checklists
-│   ├── checklist_director
-│   │   ├── rule_name.md
-│   │   └── categories.md
-├── .travis.yml
-├── README.md
-└── wiki
-```
-
-## Author
-human@checkops.com
-
-## Contributing
-https://github.com/irfanah/TestStack/blob/master/CONTRIBUTING.md

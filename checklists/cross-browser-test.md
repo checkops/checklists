@@ -1,6 +1,6 @@
 ---
 title: Cross-Browser Test 
-category: Web-Testing
+category: Testing	
 date: "2020-02-23"
 tags: ['test', 'responsive']
 description: Complete the cross-browser test to check if your project works correctly in different types of devices and browsers.
@@ -78,7 +78,6 @@ Verify that the interaction with peripheral devices such as keyboard, mouse, etc
 
 - [ ] Verify Performnce and Load Time   
 Check the website performance metrics like load time etc across all browsers , devices and layouts.
-
 
 
 
