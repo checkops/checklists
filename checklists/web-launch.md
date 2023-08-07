@@ -1,5 +1,5 @@
 ---
-title: Website Launch 
+title: Website Launch Checklist
 category: Front-End
 date: "2023-08-01"
 tags: ['launch', 'website']
@@ -36,8 +36,12 @@ Ensure You don't have any JavaScript code inline (mixed with your HTML code).Jav
 - [ ] Set proper page titles  
 Every page should be given a title that describes its content. Well-written titles are vital for improving the search rank of pages because search engines look for keywords in titles to determine how relevant pages are to search queries.<br>[google page title guide](https://support.google.com/webmasters/answer/35624?hl=en)<br>
 
-- [ ] Set proper page headings  
-Each page should have a descriptive H1 heading to help search engines and users understand what that page contains.Try to use only one H1 heading on each page to clearly indicate to users and search engines what the topic of the page is.Read More below <br>[W3 header guide](https://www.w3.org/WAI/tutorials/page-structure/headings/)<br>
+- [ ] Set proper meta description  
+Every page should be given a title that describes its content. Well-written titles are vital for improving the search rank of pages because search engines look for keywords in titles to determine how relevant pages are to search queries.<br>[google page title guide](https://support.google.com/webmasters/answer/35624?hl=en)<br>
+
+
+- [ ] Set proper page headings   
+A meta description is provided, it is unique and doesn't possess more than 150 characters.Read More below <br>[Meta Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#adding_an_author_and_description)<br>
 
 - [ ] Robot.txt is present and updated  
 Add a robots.txt file to every subdomain so you can specify sitemap locations and set web crawler rules. Robots.txt files are always located in the root folder with the name robots.txt.Read More below <br>[Robot.txt guide by google](https://developers.google.com/search/docs/crawling-indexing/robots/intro)
@@ -76,3 +80,39 @@ Defines how content is loaded on your site and from where it is permitted to be 
 
 - [ ] Check XSS protection is Enabled    
 Check weather your page or website is free from XSS possible issues to avoid malicious code injections. <br>[XSS Check](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection)
+
+
+### DESIGN
+
+- [ ] Check for Responsive Web Design    
+The website is using responsive web design. All pages were tested at the following breakpoints: 320px, 768px, 1024px (can be more / different according to your analytics).Check  below <br>[Responsive Test](https://responsivedesignchecker.com/)
+
+- [ ] Check On Different Browsers   
+All pages were tested on all current desktop browsers (Chrome , Firefox, Safari, EDGE...) as well as mobile browsers (Native browser, Chrome, Safari...).
+
+- [ ] Check for Webfont format   
+WOFF, WOFF2 and TTF are supported by all modern browsers. Ensure Webfont sizes don't exceed 2 MB. Check  below <br>[WOFF Compatibility](https://caniuse.com/woff/) 
+
+
+- [ ] Check for Favicons Setup    
+Favicon has been created and displays correctly. PNG format is recommended over .ico format (dimensions: 32x32px). Check  below <br>[Favicon Compatibility](https://caniuse.com/link-icon-png) 
+
+
+
+
+### ACCESSIBILITY
+
+- [ ] Check for Proper Headings    
+Headings should be used properly and in the right order (H1 to H6). There should be only 1 H1 per page
+
+- [ ] Check for Form Labels   
+A label is associated with each input form element. In case a label can't be displayed, use aria-label instead.<br>[Using Labels](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label/)
+
+- [ ] Check for Image Setups   
+Provide layout images 2x or 3x, support retina display.Set width and height attributes on <img> if the final rendered image size is known. Also All <img> have an alternative text which describes the image visually.
+
+- [ ] Check for Color contrast   
+Color contrast should at least pass WCAG AA (AAA for mobile).<br>[Contrast Check](https://color.a11y.com/)
+
+- [ ] Check for Keyboard navigation    
+Test your website using only your keyboard in a previsible order. All interactive elements are reachable and usable. 
