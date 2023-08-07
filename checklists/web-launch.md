@@ -1,5 +1,5 @@
 ---
-title: WebSite Launch 
+title: Website Launch Checklist
 category: Front-End
 date: "2023-08-01"
 tags: ['launch', 'website']
